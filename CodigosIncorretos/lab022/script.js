@@ -9,7 +9,7 @@ function contar() {
         if (cont % 2 == 0) {
             saida.innerHTML += `<mark><strong> ${cont} </strong></mark>&#x1F449;`    
         } else {
-            saida.innerHTML +=  ${cont} &#x1F449;`
+            saida.innerHTML += ` ${cont} &#x1F449;`  // Adicionei o acento que faltava
         }
         cont ++ // Corresponde a cont = cont + 1
     }
