@@ -8,7 +8,8 @@ function contagem() {
     saida.innerHTML += `<h2>Contando de ${n1} até ${n2} </h2>`
     if (n1<n2) {
         cont = n1
-        while cont <= n2 {
+        while (cont <= n2) //foi adicionado um parenteses que estava faltando
+        {
             saida.innerHTML += ` ${cont} &#x1F449;`
             cont ++
         }
