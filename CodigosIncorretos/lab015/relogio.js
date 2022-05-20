@@ -2,7 +2,7 @@
 function info() {
     let meses = new Array('Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez')
     let semana = Array ('Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb')
-    let agara = new Date
+    let agora = new Date
     let saida = document.getElementById('saida')
     let dia = agora.getDate()
     let mes = agora.getMonth() // Jan = 0 | Fev = 1 | Mar = 2 e assim vai...
