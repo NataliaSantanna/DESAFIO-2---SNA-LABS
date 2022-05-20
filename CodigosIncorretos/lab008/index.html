@@ -1,4 +1,5 @@
 
+<!--Natália Gabriele Santana Silva, 20/05/2022, LAB 08 -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -16,12 +17,13 @@
     <section id="resultado">
         <p>O resultado vai aparecer aqui...</p>
     </section>
+    <!-- O prompt da funcão não estava funcionando, pois faltanva o "prompt"-->
 
     <script>
         function calcular() {
-            let num = Number(window('Digite um número: '))
+            let num = Number(window.prompt('Digite um número: '))
             
-            let res = document.querySelector('section#result')
+            let res = document.querySelector('section#resultado')
             res.innerHTML = `<p>O número a ser analisado aqui será o <strong>${num}</strong></p><hr>`
             res.innerHTML += `<p>O seu valor absoluto é ${Math.abs(num)}</p>`
             res.innerHTML += `<p>A sua parte inteira é ${Math.trunc(num)}</p>`
