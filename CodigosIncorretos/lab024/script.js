@@ -10,3 +10,5 @@ function contar() {
     }
     saida.innerHTML += ` &#x1F3C1;`
 }
+
+//Ja esta funcionando corretamente
