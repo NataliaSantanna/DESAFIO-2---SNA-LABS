@@ -2,18 +2,20 @@
 let resp = window.document.getElementById('saida')
 // Lembre-se que toda variável declarada aqui fora possui escopo global. Veja mais sobre escopo no seu material em PDF, na aula 07.
 
+//Para criar um em baixo do outro add o += em todos e arrumei a frase do ultimo
+
 function acao1() {
-    resp.innerHTML = '<p>Clicou no primeiro botão</p>'
+    resp.innerHTML += '<p>Clicou no primeiro botão</p>'
 }
 
 function acao2() {
-    resp.innerHTML = '<p>Clicou no segundo botão</p>'
+    resp.innerHTML += '<p>Clicou no segundo botão</p>'
 }
 
 function acao3() {
-    resp.innerHTML = '<p>Clicou no terceiro botão</p>'
+    resp.innerHTML += '<p>Clicou no terceiro botão</p>'
 }
 
 function acao4() {
-    resp.innerHTML += '<p>Clicou no botão</p>'
+    resp.innerHTML += '<p>Clicou no quarto botão</p>'
 }
