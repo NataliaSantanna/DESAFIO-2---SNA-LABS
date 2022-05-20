@@ -1,6 +1,8 @@
 
 function maior() {
+    //Adicionei o n1 para que possa funcionar corretamente
 
+    let n1 = Number(window.prompt('Digite outro número: '))
     let n2 = Number(window.prompt('Digite outro número: '))
     
     let res = document.querySelector('section#saida')
