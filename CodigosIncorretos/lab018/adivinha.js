@@ -1,4 +1,5 @@
 
+//Este esta funcionando corretamente
 // Todas as variáveis declaradas aqui em cima - fora das funções - são consideradas GLOBAIS e funcionam dentro de qualquer outra função!
 let res = document.querySelector('section#result')
 let computador = 0

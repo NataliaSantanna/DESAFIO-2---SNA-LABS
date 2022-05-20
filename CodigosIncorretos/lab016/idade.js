@@ -2,6 +2,7 @@
 function calcidade() {
     let agora = new Date
     let ano = agora.getFullYear()
+    // Alterei o "mes" para "äno"
 
     let nasc = Number(window.prompt('Em que ano você nasceu?'))
     let idade = ano - nasc
