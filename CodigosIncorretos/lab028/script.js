@@ -14,3 +14,5 @@ function fatorial() {
     saida.innerHTML += `1 = <strong>${fat.toLocaleString('pt-BR')}</strong>`
     // Usei o toLocaleString() na linha acima apenas para aparecerem os separadores de milhar/milhões/etc...
 }
+
+//Esta funcionando corretamente 
